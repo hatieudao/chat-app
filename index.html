@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+    <title>Chat App</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="message-container" class="offset-xl-2 col-xl-8 offset-xl-1 col-md-10"></div>
+        </div>
+        <div class="row">
+            <div class="offset-xl-2 col-xl-8 col-md-10">
+                <form id="send-container" class="form-inline">
+                    <input type="text" id="message-input" class="form-control">
+                    <button type="submit" id="send-button" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

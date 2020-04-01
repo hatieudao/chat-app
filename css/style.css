@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Robonto", Helvetica, sans-serif;
+    background-color: #efefef;
+}
+#message-container{
+    height: 400px;
+    background-color: #ddd;
+}
+.message{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+}
